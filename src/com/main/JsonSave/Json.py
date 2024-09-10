@@ -6,7 +6,7 @@ from src.com.main.Logger.Excepetions import Exceptions
 
 def load():
     try:
-        with open('Save.json') as file:
+        with open(r'C:\Users\Theo Åslev\PycharmProjects\Webscraper_V.-1\src\Resource\Save.json') as file:
             JsonData = json.load(file)
             JsonString = json.dumps(JsonData)
             start = JsonString.find("[") + 1

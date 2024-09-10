@@ -3,8 +3,7 @@ from src.com.main.Logger import Logger
 from src.com.main.Logger.Excepetions import Exceptions
 from Utils import WSMethods
 
-
-Json.load()
+print(Json.load())
 Logger.info("Starting...")
 html = "None"
 try:
@@ -13,7 +12,7 @@ try:
     print(html)
 except:
     Logger.Error(Exceptions.ExceptionsType(3))
-Logger.info(WSMethods.FindHTMLTitle(html))
+"Logger.info(WSMethods.FindHTMLTitle(html))"
 
 
 
