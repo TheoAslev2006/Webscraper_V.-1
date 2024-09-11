@@ -15,3 +15,7 @@ def printHTML(html):
         {html}
         [--Date/Time:{current_date} --]
         """)
+def Spaces():
+
+        for i in range(3):
+                print("")

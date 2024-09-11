@@ -4,4 +4,5 @@ class ExceptionsType(Enum):
     CannotFindTitelInWebsiteException = 1
     CannotFindJsonFileInDirectoryException = 2
     CannotFindURLExeption = 3
+    CannotFindBodyInWebsiteException = 4
 

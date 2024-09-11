@@ -26,7 +26,14 @@ def FindHTMLTitle(HTML):
         return titel
     except:
         Logger.Error(Exceptions.ExceptionsType(1))
-
+def FindHTMLBody(HTML):
+    try:
+        startIndex = HTML.find("<body>") + len("<body>")
+        endIndex = HTML.find("</body>")
+        body = HTML[startIndex:endIndex]
+        return body
+    except:
+        Logger.Error(Exceptions.ExceptionsType(4))
 
 
 
