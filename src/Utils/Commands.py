@@ -1,5 +1,4 @@
-HelpCommand="""
-    /help
+HelpCommand=f"""    /help
     /getTitle
     /getBody
     /getDiv
@@ -7,6 +6,5 @@ HelpCommand="""
     /getLogs
     /getLinks
     /setLinks
-    /addLinks
-            
-            """
+    /addLinks 
+    """

@@ -1,9 +1,7 @@
-from inspect import getframeinfo, currentframe
-
-from src.com.main.Logger import Logger
+from Logger import Logger
 from urllib.request import urlopen
 
-from src.com.main.Logger.Excepetions import Exceptions
+from Logger.Excepetions import Exceptions
 
 
 def LogWebHTML(url):

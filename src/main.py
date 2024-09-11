@@ -1,9 +1,6 @@
-from random import choice
-
-from src.com.main.JsonSave import Json
-from src.com.main.Logger import Logger
-from src.com.main.Logger.Excepetions import Exceptions
-from com.main.WebScraperMethods import WSMethods
+from Logger import Logger
+from Logger.Excepetions import Exceptions
+from WebScraperMethods import WSMethods
 from Utils import Method, Commands
 Logger.info("/help to begin")
 

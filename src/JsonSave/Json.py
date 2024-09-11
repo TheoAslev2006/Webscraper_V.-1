@@ -1,6 +1,7 @@
 import json
-from src.com.main.Logger import Logger
-from src.com.main.Logger.Excepetions import Exceptions
+from Logger import Logger
+from Logger.Excepetions import Exceptions
+
 
 def load():
     try:
